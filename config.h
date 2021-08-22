@@ -250,8 +250,10 @@ static Key keys[] = {
 
 	{ 0,				XK_Print,	spawn,		SHCMD("maim pic-full-$(date '+%y%m%d-%H%M-%S').png") },
 	{ ShiftMask,			XK_Print,	spawn,		SHCMD("maimpick") },
-  	{ MODKEY, 			XK_F5, 		spawn, 		SHCMD("setxkbmap us") },
+  	/*{ MODKEY, 			XK_F5, 		spawn, 		SHCMD("setxkbmap us") },
   	{ MODKEY, 			XK_F6, 		spawn, 		SHCMD("setxkbmap latam") },
+	*/
+  	{ MODKEY, 			XK_y, 		spawn, 		SHCMD("youtube-watch") },
 	/*{ MODKEY,			XK_Print,	spawn,		SHCMD("dmenurecord") },
 	{ MODKEY|ShiftMask,		XK_Print,	spawn,		SHCMD("dmenurecord kill") },
 	{ MODKEY,			XK_Delete,	spawn,		SHCMD("dmenurecord kill") },
